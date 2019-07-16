@@ -29,7 +29,9 @@
 ## 5.安装cuda
 参考：https://blog.csdn.net/myg22/article/details/84029924  
 **注意**：  
-1.若已安装显卡驱动，则是否安装显卡加速时选择n。
+1.安装cudnn:
+2.注意cuda,cudnn版本对应关系（如果安装tensorflow-gpu，则考虑三者之间的关系）；
+3.若已安装显卡驱动，则是否安装显卡加速时选择n。
 
 ## 6.安装搜狗输入法  
 参考：https://blog.csdn.net/areigninhell/article/details/79696751
@@ -41,5 +43,20 @@
 **注意**：  
 ROS和ubuntu对应版本
 
-## 8.
+## 8.安装anaconda
+参考：https://blog.csdn.net/lwplwf/article/details/79162470
+**注意**：  
+1.
+
+## 9.安装tensorflow-gpu
+注意：  
+1.conda create -n tensorflow python=3.5；  
+2.source activate tensorflow;  
+3.pip install tensorflow-gpu==1.12.0；  
+4.验证：
+‘’‘
+python
+import tensorflow as tf
+tf.__version__
+’‘’
 
