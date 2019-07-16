@@ -46,7 +46,10 @@ ROS和ubuntu对应版本
 ## 8.安装anaconda
 参考：https://blog.csdn.net/lwplwf/article/details/79162470
 **注意**：  
-1.
+1.下载：https://www.anaconda.com/download/#linux  
+2.安装： bash Anaconda3-xxx-Linux-x86_64.sh  
+3.路径：source ~/.bashrc  
+4.验证：（终端）which python，输出/home/(user)/anaconda3/bin/python
 
 ## 9.安装tensorflow-gpu
 注意：  
