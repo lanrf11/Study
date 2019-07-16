@@ -54,9 +54,9 @@ ROS和ubuntu对应版本
 2.source activate tensorflow;  
 3.pip install tensorflow-gpu==1.12.0；  
 4.验证：
-‘’‘
+~~~python
 python
 import tensorflow as tf
 tf.__version__
-’‘’
+~~~
 
